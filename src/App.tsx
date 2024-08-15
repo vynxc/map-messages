@@ -114,7 +114,7 @@ export default function App() {
             }}
             onChange={(e) => setMessage(e.target.value)}
             className="w-full p-2 border border-gray-300 rounded mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            placeholder="Enter your pin"
+            placeholder="Enter your message"
           />
           <button
             onClick={() => {
